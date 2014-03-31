@@ -1,0 +1,14 @@
+<% provide(:title, 'About Us') %>
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Application for homework | <%= yield(:title) %></title>
+ </head>
+ <body>
+  <h1>About Us</h1>
+  <p>
+	The application for student's homework checking
+  </p>
+ </body>
+</html>
+

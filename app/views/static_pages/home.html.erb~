@@ -1,0 +1,14 @@
+<% provide(:title, 'Home') %>
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Application for homework | <%= yield(:title) %></title>
+ </head>
+ <body>
+  <h1>Web Homework</h1>
+  <p>
+	This is the home page for the webHomework application
+  </p>
+ </body>
+</html>
+
